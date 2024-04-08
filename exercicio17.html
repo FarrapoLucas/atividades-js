@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 17</title>
+    <style>
+        body {
+            background-color: blue;
+            color: black;
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio 17</h1>
+    <p>Atribua um ano a ano e determine se é bissexto.</p>
+    <script>
+        var ano = Number (window.prompt('Digite um ano que você deseja saber se foi, é, ou será bissexto'))
+        var bissexto = (ano % 4 ==0) ? 'é bissexto' : 'não é bissexto'
+        document.write (`O ano de ${ano} ${bissexto}`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 21</title>
+    <style>
+        body {
+            background-color: blue;
+            color: black;
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio 21</h1>
+    <p>Declare três variáveis nota1, nota2 e peso1 com valores numéricos representando notas e pesos. Calcule a média ponderada das notas.</p>
+    <script>
+       var nota1 = Number (window.prompt('Entre com a primera nota'))
+       var nota2 = Number (window.prompt('Entre com a segunda nota'))
+       var peso1 = Number (window.prompt('Entre com o primeiro peso'))
+       var peso2 = Number (window.prompt('Entre com o segundo peso'))
+       var media = ((nota1 * peso1) + (nota2 * peso2)) / peso1 + peso2
+       document.write ('O valor da média poderada será: ' + media) 
+    </script>
+</body>
+</html>

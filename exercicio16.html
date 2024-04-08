@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 16</title>
+    <style>
+        body {
+            background-color: blue;
+            color: black;
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio 16</h1>
+    <p>Atribua um número a numero4 e determine se é divisível por 3 e 5 ao mesmo tempo.</p>
+    <script>
+        var num4 = (window.prompt('Insira um valor'))
+        var divisível = (num4 % 3 ==0) && (num4 % 5 ==0) ? 'é divisível' : 'não é divisível'
+        document.write (`O número ${num4} ${divisível} por 3 e 5 ao mesmo tempo.`)
+    </script>
+</body>
+</html>

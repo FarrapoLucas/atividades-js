@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 19</title>
+    <style>
+        body {
+            background-color: blue;
+            color: black;
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio 19</h1>
+    <p>Atribua um número a `numero5` e determine se é múltiplo de 7 ou 11.</p>
+    <script>
+        var numero5 = Number (window.prompt ('Insira um número que você quer saber se é multiplo de 7 ou 11'))
+        var resultado = (numero5 % 7 ==0) ? 'é multiplo de 7' : (numero5 % 11 ==0) ? 'é multiplo de 11' : 'não é multiplo de 7 ou de 11'
+        document.write (`O número ${numero5} ${resultado}`)
+    </script>
+</body>
+</html>
